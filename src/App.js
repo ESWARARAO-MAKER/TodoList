@@ -21,7 +21,7 @@ const App = () => {
   }
 
   const deleting = (uniqueId) => {
-    newTodo = todoListItems.filter((each) => (each.uniqueId !== uniqueId))
+    let newTodo = todoListItems.filter((each) => (each.uniqueId !== uniqueId))
     setTodoItems(newTodo)
   }
 
