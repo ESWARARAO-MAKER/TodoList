@@ -1,0 +1,17 @@
+.todoELe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+    width: 350px;
+    gap: 10px;
+}
+.label-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
