@@ -50,7 +50,7 @@ const App = () => {
         <ul>
           {
             todoListItems.map((each) =>(
-              <TodoContainer each = {each} key = {each.uniqueId}/>
+              <TodoContainer each = {each} key = {each.uniqueId} deleting = {deleting}/>
             ))
           }
         </ul>
